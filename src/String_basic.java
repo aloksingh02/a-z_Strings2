@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class String_basic {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //1. Initializing
 //        String s1 = sc.next();
 //        String s2 = sc.nextLine();
 //        System.out.println(s1);
@@ -10,6 +11,7 @@ public class String_basic {
 //        System.out.println(s1);
 //        System.out.println(s1.length());
 
+        //2.take charcter
 //        char ch = s1.charAt(3);
 //        System.out.println(ch);
 
@@ -18,6 +20,7 @@ public class String_basic {
 //            System.out.println(ch);
 //        }
 
+        //3.substring
 //        String str = "abcd";
 //        System.out.println(str.substring(0,1));
 //        System.out.println(str.substring(2));
@@ -30,6 +33,7 @@ public class String_basic {
 //        }
 
 
+        //4.adding string
 //        String s1 = "alok";
 //        s1 += "sjdg";
 //        s1 += " ";
@@ -39,6 +43,8 @@ public class String_basic {
 //        String s3 = s1+" "+s2;
 //        System.out.println(s1);
 
+
+      //5.split
         String s2  = "abc def ghi jkl";
         String[] parts = s2.split(" ");
         for(int i=0; i<parts.length; i++){
