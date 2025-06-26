@@ -13,10 +13,10 @@ public class String_stringBuilder {
         sb.insert(2,'h'); //to insert character
         System.out.println(sb);
 
-        sb.deleteCharAt(2);// to delete character
+        sb.deleteCharAt(2); // to delete character
         System.out.println(sb);
 
-        sb.append('f');
+        sb.append('f'); //to append or add element from last
         System.out.println(sb);
     }
 }
